@@ -21,3 +21,7 @@ li {
 li.active {
   background: #e018c1;
 }
+
+li.apple {
+  background: green;
+}
