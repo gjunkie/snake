@@ -6,8 +6,9 @@ body {
 
 ul {
   list-style-type: none;
-  width: 650px;
   height: 650px;
+  margin: 0 20px;
+  width: 650px;
 }
 
 li {
@@ -19,9 +20,18 @@ li {
 }
 
 li.active {
-  background: #e018c1;
+  /* background: #e018c1; */
+  background: #000000;
+}
+
+li.turbo {
+  background: #e01818;
 }
 
 li.apple {
   background: green;
+}
+
+li.boost {
+  background: red;
 }
