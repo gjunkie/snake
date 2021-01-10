@@ -6,9 +6,9 @@ body {
 
 ul {
   list-style-type: none;
-  height: 650px;
   margin: 0 20px;
-  width: 650px;
+  padding: 0;
+  width: 400px;
 }
 
 li {
@@ -18,20 +18,25 @@ li {
   height: 10px;
   margin-right: 1px;
 }
-
 li.active {
   /* background: #e018c1; */
   background: #000000;
 }
-
 li.turbo {
   background: #e01818;
 }
-
 li.apple {
   background: green;
 }
-
 li.boost {
   background: red;
+}
+.card {
+  align-items: center;
+  background: #ff6100;
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  justify-content: center;
+  width: 120px;
 }
